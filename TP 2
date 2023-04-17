@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>FORMULARIO DE JOAQUÍN</title>
+    <meta name="author" content="Joaquín">
+<meta name="description" content="Mi primer pagina web">
+</head>
+<body>
+    <h1>Formulario de Joaquín</h1>
+    <br>
+    <form action="envio.php" method="post" target="_blank">
+        <label for="usuario">Usuario:</label>
+
+        <input type="text" id="Usuario" size="tamaño" name="Nombre" minlength="1" placeholder="Escriba su usuario" required>
+        <br>
+        <small>Este campo es obligatorio</small>
+       <br>
+       <br>
+       <label for="Contraseña">Contraseña:</label>
+        <input type="text" id="Contraseña" name="Contraseña" size="tamaño" maxlength="15" minlength="5" placeholder="Escriba su contraseña">
+        <br>
+        <small>Este campo es obligatorio</small>
+        <br> 
+        <br>
+        <label for="Edad">Edad:</label>
+        <br>
+        <input type="text" id="Edad" name="Edad" size="tamaño" minlength="1"  placeholder="Escriba su edad">
+        <br>
+ <br>
+<label for="País">País:</label>
+        <br>
+        <input type="text" id="País" name="País" size="tamaño"  placeholder="Escriba su país de residencia">
+<br>
+<br>
+<br>
+<label for="Deporte">¿Realiza algún deporte?</label>
+<select name="Deporte" id="Deporte">
+    <optgroup>
+        <option value="Si">Si</option>
+        <option value="No">No</option>
+    </optgroup>
+    <select></select>
+    <br><br>
+
+<label for="Deporte">¿Qué deporte realiza?</label>
+<br>
+<input type="text" id="Deporte" name="Deporte" size="tamaño">
+<br><br>
+<label for="Ocupación">Trabaja o estudia?</label>
+<br>
+<select name="Ocupación" id="Ocupación">
+    <br>
+    <optgroup>
+        <option value="Trabajo">Trabajo</option>
+        <option value="Estudio">Estudio</option>
+        <option value="Ambas">Ambas</option>
+        <option value="Ninguna">Ninguna</option>
+        <select>
+    </optgroup>
+<br><br><br>
+    <label for="Usted">Cuentenos sobre usted</label>
+    <input type="text" id="Usted" name="Usted" size="tamaño">
+    <br><br>
+    <input type="button" value="Enviar datos">
+<input type="reset">
+<br>
+<br>
+<label for="Participar">¡Gracias por particpar!</label>
+
+
+</form>
+</body>
+</html>
